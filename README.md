@@ -1,5 +1,4 @@
 # AgenticFlow
-```markdown
 ## With OpenAI-Compatible Chat Interface
 
 This is a Streamlit-based chat interface for interacting with any OpenAI-compatible API. It supports managing multiple API configurations, dynamic model selection, and streaming responses.
