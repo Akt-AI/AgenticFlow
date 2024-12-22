@@ -46,6 +46,13 @@ streamlit run script_name.py
    - **Base URL**: The endpoint of the API (e.g., `https://api.openai.com/v1`).
    - **Default Model**: The model to use (fetched dynamically from the API).
 3. Save configurations, and they will be stored in `api_config.json`.
+4. Base urls:
+  ``` 
+  XAI_BASE_URL="https://api.x.ai/v1"
+  GROQ_BASE_URL="https://api.groq.com/openai/v1"
+  OLLAMA_BASE_URL="http://localhost:11434/v1"
+  OPENAI_BASE_URL="https://api.openai.com/v1/"
+```
 
 ### Step 4: Start Chatting
 1. Enter your message in the chat input box at the bottom of the interface.
